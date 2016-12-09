@@ -65,4 +65,5 @@ instructions = STDIN.read.chomp.split(/,\s*/)
 
 final = instructions.inject(Location.new, :process)
 
+puts final.coordinates.inspect
 puts final.distance
