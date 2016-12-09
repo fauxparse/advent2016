@@ -21,3 +21,4 @@ executable haskell
                      , MissingH
   other-modules:
     One
+    Two
